@@ -1,6 +1,9 @@
 Tests based on the plyawright framework.
 Include the playwright CLI.
 
+Test for frontend has name without 'request' word in the name.
+Test for checking request for API has name with 'request' name.
+
 For launch the existing tests on the local machine:
 1. pull the repo
 2. open the directory
