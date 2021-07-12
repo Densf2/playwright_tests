@@ -28,7 +28,7 @@ npx playwright codegen <start page>
 For generate report:
 - install globally package
 ```
-npm install senpm i -g allure-commandline
+npm install i -g allure-commandline
 ```
 - after running test launch the commannd:
 ```
