@@ -34,4 +34,8 @@ npm install senpm i -g allure-commandline
 ```
 allure serve
 ```
-commannd generate report and open in the browser
+commannd ^^ create report and open in the browser
+For generatign report use command:
+```
+allure generate
+```
