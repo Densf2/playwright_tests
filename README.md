@@ -20,7 +20,18 @@ node request.js
 For launch the CLI tool for recording
 1. launch the command
 ```
-npx playwright-cli codegen <start page>
+npx playwright codegen <start page>
 ```
 2. Copy the generated code in the console interface
 3. Paste in the js.file and launch the tests
+
+For generate report:
+- install globally package
+```
+npm install senpm i -g allure-commandline
+```
+- after running test launch the commannd:
+```
+allure serve
+```
+commannd generate report and open in the browser
