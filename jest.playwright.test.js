@@ -17,12 +17,12 @@ afterEach(async () => {
 describe('Tests', () => {
 it('Open main page', async () => {
     await page.goto('https://dou.ua/');
-    expect(await page.title()).toBe('Сообщество программистов | DOU')
+    expect(await page.title()).toBe('Спільнота програмістів | DOU')
 })
 it('Click on salary link', async () => {
     await page.goto('https://dou.ua/');
-    await page.click('text=Зарплаты');
-    let tileOfSalaryPage = 'Cтатистика зарплат программистов, тестировщиков и PM в Украине | DOU';
+    await page.click('text=Зарплати');
+    let tileOfSalaryPage = 'Cтатистика зарплат програмістів, тестувальників і PM в Україні | DOU';
     expect(await page.title()).toBe(tileOfSalaryPage);
 })
 })
